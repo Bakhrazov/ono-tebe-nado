@@ -59,10 +59,10 @@ html {
 }
 
 .address {
-    font-family: Raleway;
-    font-size: 18px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
+    font-size: 18px;
     line-height: 1.35;
     text-underline-offset: 4px;
     list-style: none;
@@ -85,10 +85,10 @@ html {
 } 
 
 .cover__title {
-    font-family: 'Raleway', serif;
+    font-family: "Raleway', serif";
+    font-style: normal;
     font-weight: 700;
     font-size: 100px;
-    font-style: normal;
     text-transform: uppercase;
     letter-spacing: 30px;
     width: 100%;
@@ -123,10 +123,10 @@ html {
 }
 
 .cover__info {
-    font-family: Raleway;
-    font-size: 22px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
+    font-size: 22px;
     text-transform: uppercase;
     text-align: center;
     color: #ffffff;
@@ -158,10 +158,10 @@ html {
 }
 
 .lots__heading {
-    font-family: Raleway;
-    font-size: 40px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
+    font-size: 40px;
     line-height: normal;
     text-transform: uppercase;
     padding-bottom: 27px;
@@ -222,10 +222,10 @@ html {
 }
 
 .card__title {
-    font-family: Raleway;
-    font-size: 22px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
+    font-size: 22px;
     line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
@@ -234,19 +234,19 @@ html {
 }
 
 .card__text {
-    font-family: Raleway;
-    font-size: 20px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
+    font-size: 20px;
     line-height: 1.20;
     color: #FFF;
 }
 
 .lots__look-more-link {
-    font-family: Raleway;
-    font-size: 20px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
+    font-size: 20px;
     line-height: 150%;
     text-underline-offset: 5px;
     padding-top: 30px;
@@ -303,10 +303,10 @@ html {
 }
 
 .about__title {
-    font-family: Raleway;
-    font-size: 40px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
+    font-size: 40px;
     line-height: normal;
     text-transform: uppercase;
     padding:100px 0px;
@@ -314,10 +314,10 @@ html {
 }
 
 .about__text {
-    font-family: Raleway;
-    font-size: 20px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
+    font-size: 20px;
     line-height: normal;
     display: flex;
     gap:26px;
@@ -341,10 +341,10 @@ html {
 }
 
 .footer__menu {
-    font-family: Raleway;
-    font-size: 18px;
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
+    font-size: 18px;
     line-height: 1.18;
     text-underline-offset: 4px;
     text-align: center;
