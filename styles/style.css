@@ -14,7 +14,7 @@ html {
     font-weight: 400;
     padding: 92px 49px 92px 51px ;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     flex-direction:row ;
 }
@@ -25,7 +25,7 @@ html {
     gap:16px ;
 }
 
-.header__menu-list{
+.header__menu-list {
     display: flex;
     flex-direction:row ;
     gap: 12px;
@@ -71,12 +71,12 @@ html {
     list-style: none;
 }
 
-.cover { 
+.cover {
     padding: 165px 50px 50px;
 }
 
 .intro {
-    background-image: url(../images/cover.jpg); 
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat ;
     height: 757px;
@@ -90,7 +90,7 @@ html {
     font-weight: 700;
     font-size: 100px;
     font-style: normal;
-    letter-spacing: 30px; 
+    letter-spacing: 30px;
     width: 100%;
     color: #ffffff;
 }
@@ -132,7 +132,7 @@ html {
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
-    font-weight: 400; 
+    font-weight: 400;
     text-transform: uppercase;
 
     line-height: 28px;
@@ -292,7 +292,7 @@ html {
 .about__logo-image {
     background-image: url(../images/logo-white.svg);
     background-size: cover;
-    background-repeat: no-repeat ; 
+    background-repeat: no-repeat;
     z-index: 1;
     width: 148px;
     height: 114px;
@@ -386,7 +386,7 @@ html {
 
 .footer__social-icon__VK {
     padding: 10PX;
-    background-image: url(../images/vk.svg); 
+    background-image: url(../images/vk.svg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 48px;
