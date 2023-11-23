@@ -242,13 +242,6 @@ html {
     color: #FFF;
 }
 
-.lots__card-list {
-    row-gap: 15px;
-    column-gap: 30px;
-    display: flex;
-    flex-grow: 1;
-}
-
 .lots__look-more-link {
     font-family: Raleway;
     font-size: 20px;
