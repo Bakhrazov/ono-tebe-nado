@@ -1,4 +1,4 @@
-.content-section { 
+.content-section {
     box-sizing: border-box;
     width: 1440px;
     margin: auto;
@@ -8,15 +8,15 @@ html {
     scroll-behavior: smooth;
 }
 
-.header { 
+.header {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
     padding: 92px 49px 92px 51px ;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     flex-direction:row ;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
 }
 
 .header__menu-item {
@@ -25,7 +25,7 @@ html {
     gap:16px ;
 }
 
-.header__menu-list{ 
+.header__menu-list{
     display: flex;
     flex-direction:row ;
     gap: 12px;
@@ -54,7 +54,7 @@ html {
     height: 105px;
 }
 
-.header__logo-image{ 
+.header__logo-image {
     width: 92%;
 }
 
@@ -76,21 +76,21 @@ html {
 }
 
 .intro {
-    position: relative;
-    z-index: 0;
     background-image: url(../images/cover.jpg); 
     background-size: cover;
     background-repeat: no-repeat ;
-    height: 757px; 
+    height: 757px;
+    position: relative;
+    z-index: 0;
 } 
 
-.cover__title { 
+.cover__title {
+    text-transform: uppercase;
     font-family: 'Raleway', serif;
     font-weight: 700;
     font-size: 100px;
     font-style: normal;
-    letter-spacing: 30px;
-    text-transform: uppercase; 
+    letter-spacing: 30px; 
     width: 100%;
     color: #ffffff;
 }
@@ -114,15 +114,15 @@ html {
 .cover__end {
     justify-content: end;
     position: relative;
-    top: 11px;   
+    top: 11px;
 }
 
-.cover__center__letter{
+.cover__center__letter {
     position: relative;
     left: 30px;
 }
 
-.cover__info{
+.cover__info {
     display: flex;
     justify-content: end;
     gap: 78px;
@@ -132,15 +132,15 @@ html {
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 28px; 
+    font-weight: 400; 
     text-transform: uppercase;
 
+    line-height: 28px;
     position: relative;
     top: 139px;
 }
 
-.cover__info__spacing{
+.cover__info__spacing {
     padding: 12px 0px;
     word-spacing: 18px;
 }
@@ -151,15 +151,15 @@ html {
     text-decoration: none;
 }
 
-.accent-span { 
+.accent-span {
     display: block;
 }
 
-.lots { 
+.lots {
     padding: 180px 50px 0 50px ;
 }
 
-.lots__heading{
+.lots__heading {
     padding-bottom: 27px;
     padding-left: 40px;
     display: block;
@@ -189,27 +189,27 @@ html {
 }
 
 .lots__intro__1 {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    background-image: url(../images/card-lot-01.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat ; 
 }
 
 .lots__intro__2 {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    background-image: url(../images/card-lot-02.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat ; 
 }
 
 .lots__intro__3 {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 0;
-    background-image: url(../images/card-lot-03.jpg); 
-    background-size: cover;
-    background-repeat: no-repeat ; 
 }
 
 .card {
@@ -220,7 +220,7 @@ html {
     width: 430px;
     height: 450px;
     border: 0.60px solid #000000;
-    
+
 }
 
 .card__title {
@@ -235,7 +235,7 @@ html {
     width: 350px;
 }
 
-.card__text{
+.card__text {
     color: #FFF;
     font-family: Raleway;
     font-size: 20px;
@@ -244,14 +244,14 @@ html {
     line-height: 1.20;
 }
 
-.lots__card-list{
+.lots__card-list {
     row-gap: 15px;
     column-gap: 30px;
     display: flex;
     flex-grow: 1;
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     padding-top: 30px;
     padding-left: 40px;
     display: block;
@@ -290,12 +290,12 @@ html {
 }
 
 .about__logo-image {
-    background-image: url(../images/logo-white.svg); 
+    background-image: url(../images/logo-white.svg);
     background-size: cover;
     background-repeat: no-repeat ; 
     z-index: 1;
     width: 148px;
-    height: 114px;  
+    height: 114px;
 }
 
 .about__circle {
@@ -334,7 +334,7 @@ html {
     line-height: normal;
 }
 
-.footer{ 
+.footer {
     padding: 180px 50px 90px 50px;
     list-style: none;
     display: flex;
@@ -342,9 +342,9 @@ html {
 }
 
 .footer__social-list {
-    background-image: url(../images/pinterest.svg); 
+    background-image: url(../images/pinterest.svg);
     background-size: cover;
-    background-repeat: no-repeat ; 
+    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
@@ -369,17 +369,17 @@ html {
     text-decoration: none;
 }
 
-.footer__menu-link{
+.footer__menu-link {
     display: flex;
     width: 240px;
     height: 50px;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .footer__social-icon__YouTube {
-    background-image: url(../images/yt.svg); 
+    background-image: url(../images/yt.svg);
     background-size: cover;
-    background-repeat: no-repeat ; 
+    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
@@ -388,15 +388,15 @@ html {
     padding: 10PX;
     background-image: url(../images/vk.svg); 
     background-size: cover;
-    background-repeat: no-repeat ; 
+    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
 
 .footer__social-icon__Pinterest {
-    background-image: url(../images/pinterest.svg); 
+    background-image: url(../images/pinterest.svg);
     background-size: cover;
-    background-repeat: no-repeat ; 
+    background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
