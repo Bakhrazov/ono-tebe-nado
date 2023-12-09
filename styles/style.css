@@ -9,11 +9,11 @@ html {
 }
 
 .header {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  padding: 88px 49px 95px 51px;
+  padding: 92px 49px 95px 51px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: 100%;
@@ -50,10 +50,8 @@ html {
   width: 98%;
 }
 
-
-
 .address {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -72,6 +70,8 @@ html {
   padding: 6px 0px 0px 0px;
   display: flex;
   justify-content: flex-end;
+  flex-direction: column;
+  justify-self: end;
 }
 
 .cover {
@@ -85,7 +85,7 @@ html {
 }
 
 .cover__title {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 100px;
@@ -121,7 +121,7 @@ html {
 }
 
 .cover__info {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -150,7 +150,7 @@ html {
 }
 
 .lots__heading {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -205,7 +205,7 @@ html {
 }
 
 .card__title {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -216,7 +216,7 @@ html {
 }
 
 .card__text {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -230,7 +230,7 @@ html {
 }
 
 .lots__look-more-link {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -285,7 +285,7 @@ html {
 }
 
 .about__title {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -296,7 +296,7 @@ html {
 }
 
 .about__text {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -315,7 +315,7 @@ html {
 }
 
 .footer__menu {
-  font-family: 'Raleway', 'sans-serif';
+  font-family: Raleway , sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -340,7 +340,4 @@ html {
 .footer__list-item {
   list-style-type: none;
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 48px;
-  height: 48px;
 }
